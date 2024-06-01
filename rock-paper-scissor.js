@@ -58,9 +58,9 @@
         document.querySelector('.js-result').innerHTML = result;
 
         document.querySelector('.js-moves').innerHTML = 
-        `You <image src="images/${playerMove}-emoji.png" 
+        `You <image src="${playerMove}-emoji.png" 
         class="move-icon">
-        <img src="images/${computerMove}-emoji.png" 
+        <img src="${computerMove}-emoji.png" 
         class="move-icon">
         Computer`
   
